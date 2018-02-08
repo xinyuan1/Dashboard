@@ -20,31 +20,6 @@
 // For our walkthrough we will be looking at the the <code>src/theme/column_bar.js</code> theme that is used for both the vizuly bar chart and column chart.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //First we are going to declare some namespaced constants that refer to the various skins our theme will implement.
 vizuly.skin.COLUMNBAR_AXIIS = "Axiis";
 vizuly.skin.COLUMNBAR_NEON = "Neon";
@@ -74,7 +49,7 @@ vizuly.theme.column_bar = function (viz) {
 
         MaterialBlue: {
             name: "Material Blue",
-            labelColor: "#FFF",
+            labelColor: "#0F0",
             color: "#02C3FF",
             grad0: "#021F51",
             grad1: "#039FDB",

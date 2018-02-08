@@ -263,10 +263,6 @@ function changeSkin(val) {
 }
 
 
-
-
-
-
 //Here we do a little animation magic with D3 and set all the bars to a width of <code>0</code>, so when we
 //reset the size of the <code>viz</code> and call <code>.udpate()</code>, the bars animate by growing to the appropriate width.
 function changeSize(val) {
@@ -286,7 +282,6 @@ function changeSize(val) {
 //<code>vizuly.viz.layout.STREAM</code><br>
 function changeLayout(val) {
     viz.layout(val).update();
-    console.log(val);
 }
 
 
