@@ -77,7 +77,7 @@ function initialize() {
     
     
     viz.data(data)
-        .width(screenWidth).height(560)     //initial component display size
+        .width(screenWidth).height(600)     //initial component display size
         .y(function (d, i)
             { return d.count; })    //property for x axis plot
         .x(function (d, i)
