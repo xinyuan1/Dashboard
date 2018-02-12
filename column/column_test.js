@@ -47,14 +47,21 @@
 // Once that is done we load the data via D3 and call our initialize routine.
 var viz, viz_container, viz_title, data, theme, screenWidth;
 
-function loadData() {
+const loadData = () => {
     //Here we grab our data via the <code>d3.json</code> utility.
-    d3.json("https://api.jsonbin.io/b/5a7b5c539a230212562a7dcc/1", function (json) {
+    d3.json("https://api.jsonbin.io/b/5a7dfa4b2cc12d126d71cd84", function (json) {
         data = json;
-        console.log(data);
         initialize();
     });
-}
+};
+
+var svg = d3.select("svg");
+svg.append("text")      // text label for the x axis
+    .attr("x", 265 )
+    .attr("y",  240 )
+    .style("text-anchor", "middle")
+    .text("Date");
+
 //** Creating your first bar chart **
 
 //Vizuly follows an almost identical function chaining syntax as that of D3.  If you know D3, vizuly will feel familiar to you,
@@ -63,7 +70,7 @@ function loadData() {
 //In this routine we create our bar chart, set various properties, create a title and
 //update the display.
 //
-function initialize() {
+const initialize = () => {
 
     //Here we set our <code>viz</code> variable by instantiating the <code>vizuly.viz.bar</code> function.
     //All vizuly components require a parent DOM element at initialization so they know where to inject their display elements.
@@ -77,12 +84,12 @@ function initialize() {
     
     
     viz.data(data)
-        .width(screenWidth).height(580)     //initial component display size
+        .width(screenWidth).height(500)     //initial component display size
         .y(function (d, i)
             { return d.count; })    //property for x axis plot
         .x(function (d, i)
             { return d.effective_rate.toString(); })          //property for y axis plot
-        .padding(0.2)                       //spacing between bars
+        .padding(0.15)                       //spacing between bars
         .on("update", onUpdate)              //fires every time viz is updated
         .on("zoom", zoom)                    //handles zoom event
         .on("mouseover", onMouseOver)        //handles mouse over event
@@ -92,8 +99,11 @@ function initialize() {
     //** Themes and skins **  play a big role in vizuly, and are designed to make it easy to make subtle or drastic changes
     //to the look and feel of any component.   Here we choose a theme and skin to use for our bar chart.
     // *See this <a href=''>guide</a> for understanding the details of themes and skins.*
+
+
     theme = vizuly.theme.column_bar(viz)
         .skin(vizuly.skin.COLUMNBAR_MATERIALBLUE);
+
 
     //T he <code>viz.selection()</code> property refers to the parent
     // container that was used at the object construction.  With this <code>selection</code> property we can use D3
@@ -107,6 +117,31 @@ function initialize() {
         .style("fill", "#FFF")
         .style("font-weight",300)
         .text("Company Name vs Others");
+
+    var x_label = viz.selection()
+        .select("svg")
+        .append("text")
+        .attr("class", "title")
+        .attr("x", viz.width() / 2)
+        .attr("y", viz.height()-3).attr("text-anchor", "middle")
+        .style("fill", "#FFF")
+        .style("font-weight",200)
+        .style({"font-size":"15px"})
+        .text("EFFECTIVE RATE");
+
+    var y_label = viz.selection()
+        .select("svg")
+        .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("class", "title")
+        .attr("y", 4)
+        .attr("x", (viz.height()/1.7)*-1)
+        .attr("dy", "1em")
+        .style("fill", "#FFF")
+        .style("font-weight",200)
+        .style({"font-size":"15px"})
+        .text("NUMBER OF COMPANIES")
+        ;
 
     //The <code>viz.update()</code> function tells the component to render itself to the display.
     //Any property changes that have occurred since the last update (including changes to the data) will now be rendered.
@@ -129,7 +164,7 @@ function initialize() {
     d3.select("body").on("wheel.reel",stopReel);
     */
 
-}
+};
 
 //That's really all there is to getting up and running with vizuly.  Below you will find some additional functionality that may find
 //helpful as well.
@@ -146,18 +181,18 @@ function initialize() {
 //First we want to capture the <code>mouseover</code> event from the <code>viz</code> object so we know when to display the datatip.
 //At the same time we will pass along some event parameters to the data tip so we know where to position it, and what values to show.
 //When vizuly components emit a interaction event, they pass the DOM element, associated datum, and the datum index as seen here.
-function onMouseOver(bar, d, i) {
+const onMouseOver = (bar, d, i) => {
 
     var rect = bar.getBoundingClientRect();
     var x = rect.left + d3.select(bar).attr("width") / 2;
-    var y = rect.top;
+    var y = rect.top; /* May need to fix height bug of tool tip */
 
     setDataTip("myDataTip", d, i, x, y);
 }
 
 //For this example we are going to use a simple HTML template for the datatip.  You can also use more complex and dynamic DOM elements declared
 //dynamically via javascript or statically within your HTML.
-var datatipHtml = 
+const datatipHtml =
     `<div style='text-align:left;'>
    <b> Count &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</b>
    <span class='datatip-label'>
@@ -170,12 +205,11 @@ var datatipHtml =
  </div>`;
 
 
-
 //Here is the function that creates and updates the display position and values for the datatip.
-function setDataTip(name, datum, index, x, y) {
+const setDataTip = (name, datum, index, x, y) => {
 
     //First we look to see if the datatip already exists based on the name parameter.
-    var tip = d3.selectAll("#" + name);
+    let tip = d3.selectAll("#" + name);
 
     //If the datatip does not exist we then create it here and insert the HTML template defined above.
     if (tip[0].length < 1) {
@@ -199,9 +233,6 @@ function setDataTip(name, datum, index, x, y) {
             return (index == i) ? theme.skin().color : 'white';
                     })
         .html(function (d, i) {
-            // console.log(index); index -> hovered element -> value
-            // console.log(viz.data()[i][getSeriesIndex(datum)].value);
-            // need to change
             return parseFloat(viz.data()[0][getSeriesIndex(datum)].effective_rate.toString());
         });
 
@@ -214,7 +245,6 @@ function setDataTip(name, datum, index, x, y) {
             return (index == i) ? theme.skin().color : 'white';
         })
         .html(function (d, i) {
-            // console.log(viz.data()[i][getSeriesIndex(datum)].category); --> Categorey for tool tip
             return viz.data()[0][getSeriesIndex(datum)].count;
         });
 
@@ -224,26 +254,26 @@ function setDataTip(name, datum, index, x, y) {
     y = y - tip[0][0].getBoundingClientRect().height;
 
     tip.style("left", x + "px").style("top", y + "px");
-}
+};
 
 //Here is a quick utility function that tells us what type of medal we are displaying in the datatip
-function getSeriesIndex(val) {
+const getSeriesIndex = (val) => {
     return viz.xScale().domain().indexOf(viz.x().apply(this, [val]));
-}
+};
 
 //All we need to do here is remove the datatip when the user moves the mouse away.
-function onMouseOut(bar, d, i) {
-    removeDataTip("myDataTip")
-}
+const onMouseOut = (bar, d, i) => {
+    removeDataTip("myDataTip");
+};
 
-function removeDataTip(name) {
+const removeDataTip = (name) => {
     d3.selectAll("#" + name).remove();
-}
+};
 
 //Just a simple function to make sure our title is centered if the <code>viz</code> measurements have changed.
-function onMeasure() {
+const onMeasure = () => {
     viz_title.attr("x", viz.width() / 2);
-}
+};
 
 //Here are the test container functions that show you how set **various properties** of the <code>vizuly.viz.bar</code> component.
 //
@@ -254,28 +284,25 @@ function onMeasure() {
 //<code>vizuly.skin.COLUMNBAR_NEON</code><br>
 //<code>vizuly.skin.COLUMNBAR_MATERIALBLUE</code><br>
 //<code>vizuly.skin.COLUMNBAR_MATERIALPINK</code>
-function changeSkin(val) {
+
+const changeSkin = (val) => {
     if (!val) return;
     theme.skin(val);
     viz.selection().selectAll(".vz-bar").attr("height", 0).attr("y", viz.height());
     changeZoom(1);
     viz.update();
-}
-
-
-
-
+};
 
 
 //Here we do a little animation magic with D3 and set all the bars to a width of <code>0</code>, so when we
 //reset the size of the <code>viz</code> and call <code>.udpate()</code>, the bars animate by growing to the appropriate width.
-function changeSize(val) {
+const changeSize = (val) => {
     var s = String(val).split(",");
     viz.selection().selectAll(".vz-bar").attr("width", 0).attr("x", 0);
     viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', s[1] + 'px');
     viz.width(s[0]).height(s[1]).update();
 
-}
+};
 
 //This changes the layout of the bar chart by updating the layout property which is a constant located in the
 // <code>src/viz/_viz.js</code> namespace file.  These are the available values:
@@ -286,7 +313,6 @@ function changeSize(val) {
 //<code>vizuly.viz.layout.STREAM</code><br>
 function changeLayout(val) {
     viz.layout(val).update();
-    console.log(val);
 }
 
 

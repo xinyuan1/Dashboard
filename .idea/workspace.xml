@@ -2,7 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bed9fe-b06c-4322-8d73-ddaf9a926524" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/column/ColumnTest.html" afterPath="$PROJECT_DIR$/column/ColumnTest.html" />
+      <change beforePath="$PROJECT_DIR$/column/column_test.js" afterPath="$PROJECT_DIR$/column/column_test.js" />
+      <change beforePath="$PROJECT_DIR$/column/data/column_olympics.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/lib/theme_showreel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/lib/vizuly_core.min.js" afterPath="$PROJECT_DIR$/column/lib/vizuly_core.min.js" />
+      <change beforePath="$PROJECT_DIR$/column/src/core/_namespace.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/core/component.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/core/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/svg/filter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/svg/gradient.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/svg/text.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/column_bar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/corona.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/halo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/linearea.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/radialprogress.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/rangeinput.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/scatter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/weightedtree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/ui/rangeinput.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/viz/column.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/styles/examples.css" afterPath="$PROJECT_DIR$/column/styles/examples.css" />
+      <change beforePath="$PROJECT_DIR$/lib/cssmenu.js" afterPath="$PROJECT_DIR$/column/Library/cssmenu.js" />
+      <change beforePath="$PROJECT_DIR$/lib/jquery-2.1.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/css/materialize.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/css/materialize.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/material-design-icons/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/material-design-icons/Material-Design-Icons.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/material-design-icons/Material-Design-Icons.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/material-design-icons/Material-Design-Icons.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/material-design-icons/Material-Design-Icons.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/material-design-icons/Material-Design-Icons.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Light.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Thin.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/font/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/js/materialize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/materialize/js/materialize.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/cssmenu.css" afterPath="$PROJECT_DIR$/column/Library/styles/cssmenu.css" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/img/logo_16x16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/img/logo_274x63_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/img/logo_vertical_dark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/img/vz-skin-galaxy_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/vizuly.css" afterPath="$PROJECT_DIR$/column/Library/styles/vizuly.css" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/vizuly_halo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/vizuly_radial_progress.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/vizuly_scatter.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/styles/vizuly_weightedtree.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/vizuly_core.min.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +79,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ColumnTest.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ColumnTest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/column/ColumnTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cssmenu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/column/Library/cssmenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -29,8 +104,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="253">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vizuly.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/column/Library/styles/vizuly.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-673">
+              <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cssmenu.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/column/Library/styles/cssmenu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,18 +134,8 @@
       <file leaf-file-name="examples.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/column/styles/examples.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cssmenu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/cssmenu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+            <state relative-caret-position="-2645">
+              <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -59,20 +144,50 @@
       <file leaf-file-name="column_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/column/column_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1817">
-              <caret line="79" column="38" lean-forward="false" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+            <state relative-caret-position="245">
+              <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1518119215692" expanded="false" signature="8406:8422" ph="..." />
-                <marker date="1518119215692" expanded="true" signature="8423:8627" ph="..." />
-                <marker date="1518119215692" expanded="true" signature="8438:8444" ph=" " />
-                <marker date="1518119215692" expanded="true" signature="8445:8451" ph=" " />
-                <marker date="1518119215692" expanded="true" signature="8452:8458" ph=" " />
-                <marker date="1518119215692" expanded="true" signature="8459:8465" ph=" " />
-                <marker date="1518119215692" expanded="true" signature="8465:8471" ph=" " />
-                <marker date="1518119215692" expanded="true" signature="8506:8517" ph="..." />
-                <marker date="1518119215692" expanded="true" signature="8545:8551" ph=" " />
+                <marker date="1518211773921" expanded="false" signature="9365:9381" ph="..." />
+                <marker date="1518211773921" expanded="true" signature="9382:9586" ph="..." />
+                <marker date="1518211773921" expanded="true" signature="9397:9403" ph=" " />
+                <marker date="1518211773921" expanded="true" signature="9404:9410" ph=" " />
+                <marker date="1518211773921" expanded="true" signature="9411:9417" ph=" " />
+                <marker date="1518211773921" expanded="true" signature="9418:9424" ph=" " />
+                <marker date="1518211773921" expanded="true" signature="9424:9430" ph=" " />
+                <marker date="1518211773921" expanded="true" signature="9465:9476" ph="..." />
+                <marker date="1518211773921" expanded="true" signature="9504:9510" ph=" " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vizuly_column.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/column/lib/vizuly_column.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vizuly_core.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/column/lib/vizuly_core.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="0" column="48212" lean-forward="true" selection-start-line="0" selection-start-column="48212" selection-end-line="0" selection-end-column="48212" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/column/lib/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="154" column="20" lean-forward="false" selection-start-line="154" selection-start-column="15" selection-end-line="154" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,28 +198,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>VIZUL</find>
-      <find>cssmenu</find>
       <find>theme.skin().color</find>
       <find>initialize</find>
       <find>COLUMNBAR_NEON</find>
-      <find>data</find>
       <find>value</find>
       <find>.value</find>
       <find>datatip-</find>
       <find>datatip</find>
-      <find>label</find>
       <find>screenWidth</find>
       <find>debu</find>
+      <find>resi</find>
       <find>600</find>
       <find>datatip-label</find>
-      <find>resi</find>
       <find>changeSize</find>
+      <find>stroke</find>
+      <find>COLUMNBAR_MATERIALBLUE</find>
+      <find>skin</find>
+      <find>b()</find>
+      <find>c()</find>
+      <find>data</find>
+      <find>rect.vz-bar</find>
+      <find>bar_fill(a, b)</find>
+      <find>f()</find>
+      <find>vz-bar</find>
+      <find>fill</find>
+      <find>bar_fill</find>
+      <find>label</find>
+      <find>svg.a</find>
+      <find>svg</find>
+      <find>540</find>
+      <find>padd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,9 +243,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/cssmenu.js" />
-        <option value="$PROJECT_DIR$/column/styles/examples.css" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/column/index.html" />
+        <option value="$PROJECT_DIR$/column/src/theme/column_bar.js" />
+        <option value="$PROJECT_DIR$/column/styles/examples.css" />
+        <option value="$PROJECT_DIR$/column/lib/test.css" />
+        <option value="$PROJECT_DIR$/column/lib/test.js" />
+        <option value="$PROJECT_DIR$/column/lib/vizuly_core.min.js" />
         <option value="$PROJECT_DIR$/column/column_test.js" />
         <option value="$PROJECT_DIR$/column/ColumnTest.html" />
       </list>
@@ -124,6 +257,12 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -166,25 +305,33 @@
               <item name="Dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="column" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="column" type="462c0819:PsiDirectoryNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="column" type="462c0819:PsiDirectoryNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="column" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,9 +343,16 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/column/Library" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -228,12 +382,14 @@
       <option name="presentableId" value="Default" />
       <updated>1518020802294</updated>
       <workItem from="1518020803534" duration="5476000" />
-      <workItem from="1518105928497" duration="11117000" />
+      <workItem from="1518105928497" duration="14847000" />
+      <workItem from="1518124642224" duration="2002000" />
+      <workItem from="1518189652120" duration="18629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16593000" />
+    <option name="totallyTimeSpent" value="40954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,20 +401,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1040" extended-state="6" />
-    <editor active="true" />
+    <frame x="136" y="165" width="1922" height="1040" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16657825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -280,9 +435,125 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/column/ColumnTest.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/Library/styles/cssmenu.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/Library/styles/vizuly.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/styles/examples.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5152">
+          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/column_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1518211773921" expanded="false" signature="9365:9381" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9382:9586" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9397:9403" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9404:9410" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9411:9417" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9418:9424" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9424:9430" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9465:9476" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9504:9510" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/ColumnTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3197">
+          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/styles/examples.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5152">
+          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/Library/cssmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2461">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/column_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5865">
+          <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1518211773921" expanded="false" signature="9365:9381" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9382:9586" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9397:9403" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9404:9410" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9411:9417" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9418:9424" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9424:9430" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9465:9476" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9504:9510" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/src/theme/column_bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/ColumnTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -300,15 +571,15 @@
           <caret line="200" column="22" lean-forward="true" selection-start-line="200" selection-start-column="22" selection-end-line="200" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518119215692" expanded="false" signature="8406:8422" ph="..." />
-            <marker date="1518119215692" expanded="true" signature="8423:8627" ph="..." />
-            <marker date="1518119215692" expanded="true" signature="8438:8444" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8445:8451" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8452:8458" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8459:8465" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8465:8471" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8506:8517" ph="..." />
-            <marker date="1518119215692" expanded="true" signature="8545:8551" ph=" " />
+            <marker date="1518211773921" expanded="false" signature="9365:9381" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9382:9586" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9397:9403" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9404:9410" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9411:9417" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9418:9424" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9424:9430" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9465:9476" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9504:9510" ph=" " />
           </folding>
         </state>
       </provider>
@@ -317,9 +588,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -327,49 +596,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/column/data/column_olympics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/column/lib/vizuly_column.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/column/lib/vizuly_core.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/column/data/column_olympics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/styles/cssmenu.css">
+    <entry file="file://$PROJECT_DIR$/column/data/column_olympics.json" />
+    <entry file="file://$PROJECT_DIR$/column/data/column_olympics.json" />
+    <entry file="file://$PROJECT_DIR$/test.html" />
+    <entry file="file://$PROJECT_DIR$/column/Library/styles/cssmenu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -377,61 +611,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
+    <entry file="file://$PROJECT_DIR$/column/src/theme/column_bar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <caret line="342" column="41" lean-forward="false" selection-start-line="342" selection-start-column="41" selection-end-line="342" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/column/lib/d3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/column/styles/examples.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+        <state relative-caret-position="-2645">
+          <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cssmenu.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/lib/vizuly_column.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/lib/vizuly_core.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="0" column="48212" lean-forward="true" selection-start-line="0" selection-start-column="48212" selection-end-line="0" selection-end-column="48212" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/lib/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="154" column="20" lean-forward="false" selection-start-line="154" selection-start-column="15" selection-end-line="154" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/column/column_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1817">
-          <caret line="79" column="38" lean-forward="false" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+        <state relative-caret-position="245">
+          <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518119215692" expanded="false" signature="8406:8422" ph="..." />
-            <marker date="1518119215692" expanded="true" signature="8423:8627" ph="..." />
-            <marker date="1518119215692" expanded="true" signature="8438:8444" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8445:8451" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8452:8458" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8459:8465" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8465:8471" ph=" " />
-            <marker date="1518119215692" expanded="true" signature="8506:8517" ph="..." />
-            <marker date="1518119215692" expanded="true" signature="8545:8551" ph=" " />
+            <marker date="1518211773921" expanded="false" signature="9365:9381" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9382:9586" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9397:9403" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9404:9410" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9411:9417" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9418:9424" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9424:9430" ph=" " />
+            <marker date="1518211773921" expanded="true" signature="9465:9476" ph="..." />
+            <marker date="1518211773921" expanded="true" signature="9504:9510" ph=" " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/column/ColumnTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/Library/cssmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/Library/styles/vizuly.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673">
+          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="8" />
           <folding />
         </state>
       </provider>
