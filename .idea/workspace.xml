@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bed9fe-b06c-4322-8d73-ddaf9a926524" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/column/ColumnTest.html" afterPath="$PROJECT_DIR$/column/ColumnTest.html" />
@@ -66,6 +67,11 @@
       <change beforePath="$PROJECT_DIR$/lib/styles/vizuly_scatter.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/lib/styles/vizuly_weightedtree.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/lib/vizuly_core.min.js" afterPath="" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/column/column_test.js" afterPath="$PROJECT_DIR$/column/column_test.js" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/column_bar.js" afterPath="$PROJECT_DIR$/column/src/theme/column_bar.js" />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,6 +88,7 @@
       <file leaf-file-name="ColumnTest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/column/ColumnTest.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="276">
               <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
               <folding>
@@ -96,7 +103,23 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
               <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+=======
+            <state relative-caret-position="506">
+              <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="column_bar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/column/src/theme/column_bar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +127,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="253">
               <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+=======
+            <state relative-caret-position="23">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
               <folding />
             </state>
           </provider>
@@ -114,8 +142,13 @@
       <file leaf-file-name="vizuly.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/column/Library/styles/vizuly.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-673">
               <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="8" />
+=======
+            <state relative-caret-position="1017">
+              <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
               <folding />
             </state>
           </provider>
@@ -144,6 +177,7 @@
       <file leaf-file-name="column_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/column/column_test.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="245">
               <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
               <folding>
@@ -157,6 +191,21 @@
                 <marker date="1518211773921" expanded="true" signature="9424:9430" ph=" " />
                 <marker date="1518211773921" expanded="true" signature="9465:9476" ph="..." />
                 <marker date="1518211773921" expanded="true" signature="9504:9510" ph=" " />
+=======
+            <state relative-caret-position="4213">
+              <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1518124382955" expanded="false" signature="8406:8422" ph="..." />
+                <marker date="1518124382955" expanded="true" signature="8423:8627" ph="..." />
+                <marker date="1518124382955" expanded="true" signature="8438:8444" ph=" " />
+                <marker date="1518124382955" expanded="true" signature="8445:8451" ph=" " />
+                <marker date="1518124382955" expanded="true" signature="8452:8458" ph=" " />
+                <marker date="1518124382955" expanded="true" signature="8459:8465" ph=" " />
+                <marker date="1518124382955" expanded="true" signature="8465:8471" ph=" " />
+                <marker date="1518124382955" expanded="true" signature="8506:8517" ph="..." />
+                <marker date="1518124382955" expanded="true" signature="8545:8551" ph=" " />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
               </folding>
             </state>
           </provider>
@@ -217,6 +266,7 @@
       <find>600</find>
       <find>datatip-label</find>
       <find>changeSize</find>
+<<<<<<< HEAD
       <find>stroke</find>
       <find>COLUMNBAR_MATERIALBLUE</find>
       <find>skin</find>
@@ -234,6 +284,9 @@
       <find>svg</find>
       <find>540</find>
       <find>padd</find>
+=======
+      <find>fill</find>
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -245,13 +298,18 @@
         <option value="$PROJECT_DIR$/lib/cssmenu.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/column/index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/column/src/theme/column_bar.js" />
         <option value="$PROJECT_DIR$/column/styles/examples.css" />
         <option value="$PROJECT_DIR$/column/lib/test.css" />
         <option value="$PROJECT_DIR$/column/lib/test.js" />
         <option value="$PROJECT_DIR$/column/lib/vizuly_core.min.js" />
         <option value="$PROJECT_DIR$/column/column_test.js" />
+=======
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
         <option value="$PROJECT_DIR$/column/ColumnTest.html" />
+        <option value="$PROJECT_DIR$/column/column_test.js" />
+        <option value="$PROJECT_DIR$/column/src/theme/column_bar.js" />
       </list>
     </option>
   </component>
@@ -337,7 +395,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Dashboard" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -382,14 +440,22 @@
       <option name="presentableId" value="Default" />
       <updated>1518020802294</updated>
       <workItem from="1518020803534" duration="5476000" />
+<<<<<<< HEAD
       <workItem from="1518105928497" duration="14847000" />
       <workItem from="1518124642224" duration="2002000" />
       <workItem from="1518189652120" duration="18629000" />
+=======
+      <workItem from="1518105928497" duration="14865000" />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="40954000" />
+=======
+    <option name="totallyTimeSpent" value="20341000" />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,6 +539,7 @@
           <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+<<<<<<< HEAD
             <marker date="1518211773921" expanded="false" signature="9365:9381" ph="..." />
             <marker date="1518211773921" expanded="true" signature="9382:9586" ph="..." />
             <marker date="1518211773921" expanded="true" signature="9397:9403" ph=" " />
@@ -482,6 +549,17 @@
             <marker date="1518211773921" expanded="true" signature="9424:9430" ph=" " />
             <marker date="1518211773921" expanded="true" signature="9465:9476" ph="..." />
             <marker date="1518211773921" expanded="true" signature="9504:9510" ph=" " />
+=======
+            <marker date="1518124382955" expanded="false" signature="8406:8422" ph="..." />
+            <marker date="1518124382955" expanded="true" signature="8423:8627" ph="..." />
+            <marker date="1518124382955" expanded="true" signature="8438:8444" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8445:8451" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8452:8458" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8459:8465" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8465:8471" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8506:8517" ph="..." />
+            <marker date="1518124382955" expanded="true" signature="8545:8551" ph=" " />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
           </folding>
         </state>
       </provider>
@@ -635,8 +713,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/cssmenu.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="253">
           <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
@@ -647,28 +726,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+=======
+        <state relative-caret-position="1288">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/column/lib/vizuly_core.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="0" column="48212" lean-forward="true" selection-start-line="0" selection-start-column="48212" selection-end-line="0" selection-end-column="48212" />
+=======
+    <entry file="file://$PROJECT_DIR$/column/ColumnTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/column/lib/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="154" column="20" lean-forward="false" selection-start-line="154" selection-start-column="15" selection-end-line="154" selection-end-column="20" />
+=======
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column/styles/examples.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/column/column_test.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="245">
           <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding>
@@ -682,12 +788,28 @@
             <marker date="1518211773921" expanded="true" signature="9424:9430" ph=" " />
             <marker date="1518211773921" expanded="true" signature="9465:9476" ph="..." />
             <marker date="1518211773921" expanded="true" signature="9504:9510" ph=" " />
+=======
+        <state relative-caret-position="4213">
+          <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1518124382955" expanded="false" signature="8406:8422" ph="..." />
+            <marker date="1518124382955" expanded="true" signature="8423:8627" ph="..." />
+            <marker date="1518124382955" expanded="true" signature="8438:8444" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8445:8451" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8452:8458" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8459:8465" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8465:8471" ph=" " />
+            <marker date="1518124382955" expanded="true" signature="8506:8517" ph="..." />
+            <marker date="1518124382955" expanded="true" signature="8545:8551" ph=" " />
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/column/ColumnTest.html">
+    <entry file="file://$PROJECT_DIR$/column/src/theme/column_bar.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="276">
           <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
           <folding>
@@ -709,6 +831,13 @@
         <state relative-caret-position="-673">
           <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="8" />
           <folding />
+=======
+        <state relative-caret-position="578">
+          <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+>>>>>>> 561bd35adc27f993f34cfa57b78667ada9aed2a7
         </state>
       </provider>
     </entry>
