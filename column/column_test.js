@@ -55,12 +55,6 @@ const loadData = () => {
     });
 };
 
-var svg = d3.select("svg");
-svg.append("text")      // text label for the x axis
-    .attr("x", 265 )
-    .attr("y",  240 )
-    .style("text-anchor", "middle")
-    .text("Date");
 
 //** Creating your first bar chart **
 
@@ -83,7 +77,7 @@ const initialize = () => {
 
 
     viz.data(data)
-        .width(screenWidth).height($(window).height()*.90)     //initial component display size
+        .width(screenWidth).height($(window).height()*.95)     //initial component display size
         .y(function (d, i)
             { return d.count; })    //property for x axis plot
         .x(function (d, i)
@@ -122,7 +116,7 @@ const initialize = () => {
         .append("text")
         .attr("class", "title")
         .attr("x", viz.width() / 2)
-        .attr("y", viz.height()-3).attr("text-anchor", "middle")
+        .attr("y", viz.height()-1).attr("text-anchor", "middle")
         .style("fill", "#FFF")
         .style("font-weight",200)
         .style({"font-size":"15px"})
@@ -139,8 +133,7 @@ const initialize = () => {
         .style("fill", "#FFF")
         .style("font-weight",200)
         .style({"font-size":"15px"})
-        .text("NUMBER OF COMPANIES")
-        ;
+        .text("NUMBER OF COMPANIES");
 
     //The <code>viz.update()</code> function tells the component to render itself to the display.
     //Any property changes that have occurred since the last update (including changes to the data) will now be rendered.
