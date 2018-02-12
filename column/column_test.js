@@ -45,7 +45,7 @@
 
 // **Starting off**, we do a little bit of house cleaning and set up the test container page with some global variables.
 // Once that is done we load the data via D3 and call our initialize routine.
-var viz, viz_container, viz_title, data, theme, screenWidth;
+var viz, viz_container, viz_title, data, theme, screenWidth, screenHeight;
 
 const loadData = () => {
     //Here we grab our data via the <code>d3.json</code> utility.
@@ -69,7 +69,7 @@ svg.append("text")      // text label for the x axis
 //
 //In this routine we create our bar chart, set various properties, create a title and
 //update the display.
-//
+//console.log($(window).height());
 const initialize = () => {
 
     //Here we set our <code>viz</code> variable by instantiating the <code>vizuly.viz.bar</code> function.
@@ -81,10 +81,9 @@ const initialize = () => {
     //Both the <code>x</code> and <code>y</code> properties are used to map the data values
     //to the corresponding x and y axis within the chart.
 
-    
-    
+
     viz.data(data)
-        .width(screenWidth).height(500)     //initial component display size
+        .width(screenWidth).height($(window).height()*.90)     //initial component display size
         .y(function (d, i)
             { return d.count; })    //property for x axis plot
         .x(function (d, i)
@@ -100,7 +99,7 @@ const initialize = () => {
     //to the look and feel of any component.   Here we choose a theme and skin to use for our bar chart.
     // *See this <a href=''>guide</a> for understanding the details of themes and skins.*
 
-
+    console.log(`Screen height ${screenHeight}`);
     theme = vizuly.theme.column_bar(viz)
         .skin(vizuly.skin.COLUMNBAR_MATERIALBLUE);
 
