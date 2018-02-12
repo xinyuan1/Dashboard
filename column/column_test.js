@@ -77,12 +77,12 @@ const initialize = () => {
 
 
     viz.data(data)
-        .width(screenWidth).height($(window).height()*.95)     //initial component display size
+        .width(screenWidth).height($(window).height()*.95+2)     //initial component display size
         .y(function (d, i)
             { return d.count; })    //property for x axis plot
         .x(function (d, i)
-            { return d.effective_rate.toString(); })          //property for y axis plot
-        .padding(0.15)                       //spacing between bars
+            { return d.effective_rate.toString()+"%"; })          //property for y axis plot
+        .padding(0.3)                       //spacing between bars
         .on("update", onUpdate)              //fires every time viz is updated
         .on("zoom", zoom)                    //handles zoom event
         .on("mouseover", onMouseOver)        //handles mouse over event
@@ -134,6 +134,51 @@ const initialize = () => {
         .style("font-weight",200)
         .style({"font-size":"15px"})
         .text("NUMBER OF COMPANIES");
+
+    var svg = d3.select("svg");
+
+    var colors = [ ["Normal", "rgb(2, 195, 255)"],
+        ["New Effective rate", "#00FF00"], ["Old Effective rate", "#FF0000"] ];
+
+    var legend = svg.append("g")
+        .attr("class", "legend")
+        .attr("height", 100)
+        .attr("width", 100)
+        .attr('transform', 'translate(-20,50)');
+
+    var legendRect = legend.selectAll('rect').data(colors);
+
+    legendRect.enter()
+        .append("rect")
+        .attr("x", viz.width() - 125)
+        .attr("width", 10)
+        .attr("height", 10);
+
+    legendRect
+        .attr("y", function(d, i) {
+            return i * 20;
+        })
+        .style("fill", function(d) {
+            return d[1];
+        });
+
+    var legendText = legend.selectAll('text').data(colors);
+
+    legendText.enter()
+        .append("text")
+        .style("color", "#FFF")
+        .style("font-size", "0.85rem")
+        .style("font-family", "Times")
+        .attr("x", viz.width() - 112);
+
+    legendText
+        .attr("y", function(d, i) {
+            return i * 20 + 9;
+        })
+        .text(function(d) {
+            return d[0];
+        });
+
 
     //The <code>viz.update()</code> function tells the component to render itself to the display.
     //Any property changes that have occurred since the last update (including changes to the data) will now be rendered.

@@ -48,7 +48,7 @@
             console.log(`Width ${rect.width}`);
 
             screenWidth = (rect.width < 960) ? Math.round(rect.width*.92) : Math.round((rect.width - 210) *.92);
-            screenHeight = $(window).height()*0.95;
+            screenHeight = $(window).height()*0.95+2;
 
             d3.select("#currentDisplay")
                     .attr("item_value", (String(screenWidth) + "," + String(screenHeight)))
