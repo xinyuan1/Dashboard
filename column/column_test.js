@@ -106,7 +106,7 @@ const initialize = () => {
         .append("text")
         .attr("class", "title")
         .attr("x", viz.width() / 2)
-        .attr("y", 40).attr("text-anchor", "middle")
+        .attr("y", 20).attr("text-anchor", "middle")
         .style("fill", "#FFF")
         .style("font-weight",300)
         .text("Company Name vs Others");
@@ -128,7 +128,7 @@ const initialize = () => {
         .attr("transform", "rotate(-90)")
         .attr("class", "title")
         .attr("y", 4)
-        .attr("x", (viz.height()/1.7)*-1)
+        .attr("x", (viz.height()/1.6)*-1)
         .attr("dy", "1em")
         .style("fill", "#FFF")
         .style("font-weight",200)
@@ -178,6 +178,8 @@ const initialize = () => {
         .text(function(d) {
             return d[0];
         });
+
+    viz.yAxis().tickFormat(function (d,i) { return "" });
 
 
     //The <code>viz.update()</code> function tells the component to render itself to the display.
@@ -231,10 +233,6 @@ const onMouseOver = (bar, d, i) => {
 //dynamically via javascript or statically within your HTML.
 const datatipHtml =
     `<div style='text-align:left;'>
-   <b> Count &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</b>
-   <span class='datatip-label'>
-   </span>
-   <br/>
    <b> Effective &nbsp;</b>
    <span class='datatip-value'></span>
    <br/>
@@ -271,18 +269,6 @@ const setDataTip = (name, datum, index, x, y) => {
                     })
         .html(function (d, i) {
             return parseFloat(viz.data()[0][getSeriesIndex(datum)].effective_rate.toString());
-        });
-
-    //Now we show what type of medal (bronze, silver, gold) in the <code>'.datatip-label' span</code>.
-    tip.selectAll(".datatip-label")
-        .style("font-weight", function (d, i) {
-            return (index == i) ? 400 : 200;
-        })
-        .style("color", function (d, i) {
-            return (index == i) ? theme.skin().color : 'white';
-        })
-        .html(function (d, i) {
-            return viz.data()[0][getSeriesIndex(datum)].count;
         });
 
     
