@@ -128,7 +128,7 @@ const initialize = () => {
         .attr("transform", "rotate(-90)")
         .attr("class", "title")
         .attr("y", 4)
-        .attr("x", (viz.height()/1.6)*-1)
+        .attr("x", (viz.height()/1.4)*-1)
         .attr("dy", "1em")
         .style("fill", "#FFF")
         .style("font-weight",200)
@@ -144,7 +144,8 @@ const initialize = () => {
         .attr("class", "legend")
         .attr("height", 100)
         .attr("width", 100)
-        .attr('transform', 'translate(-20,50)');
+        .style("border", "2px solid")
+        .attr('transform', 'translate(-20,30)');
 
     var legendRect = legend.selectAll('rect').data(colors);
 
@@ -166,7 +167,7 @@ const initialize = () => {
 
     legendText.enter()
         .append("text")
-        .style("color", "#FFF")
+        .style("fill", "#FFF")
         .style("font-size", "0.85rem")
         .style("font-family", "Times")
         .attr("x", viz.width() - 112);
@@ -180,6 +181,8 @@ const initialize = () => {
         });
 
     viz.yAxis().tickFormat(function (d,i) { return "" });
+
+    d3.select(".legend").style("border", "2px solid");
 
 
     //The <code>viz.update()</code> function tells the component to render itself to the display.
@@ -268,7 +271,7 @@ const setDataTip = (name, datum, index, x, y) => {
             return (index == i) ? theme.skin().color : 'white';
                     })
         .html(function (d, i) {
-            return parseFloat(viz.data()[0][getSeriesIndex(datum)].effective_rate.toString());
+            return parseFloat(viz.data()[0][getSeriesIndex(datum)].effective_rate.toString())+"%";
         });
 
     
