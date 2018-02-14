@@ -108,8 +108,7 @@ const initialize = () => {
         .attr("x", viz.width() / 2)
         .attr("y", 20).attr("text-anchor", "middle")
         .style("fill", "#FFF")
-        .style("font-weight",300)
-        .text("Company Name vs Others");
+        .style("font-weight",300);
 
     var x_label = viz.selection()
         .select("svg")
@@ -145,7 +144,7 @@ const initialize = () => {
         .attr("height", 100)
         .attr("width", 100)
         .style("border", "2px solid")
-        .attr('transform', 'translate(-20,30)');
+        .attr('transform', 'translate(-20,10)');
 
     var legendRect = legend.selectAll('rect').data(colors);
 
@@ -169,7 +168,6 @@ const initialize = () => {
         .append("text")
         .style("fill", "#FFF")
         .style("font-size", "0.85rem")
-        .style("font-family", "Times")
         .attr("x", viz.width() - 112);
 
     legendText
