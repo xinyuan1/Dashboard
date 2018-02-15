@@ -118,7 +118,8 @@ const initialize = () => {
         .attr("y", viz.height()-1).attr("text-anchor", "middle")
         .style("fill", "#FFF")
         .style("font-weight",200)
-        .style({"font-size":"15px"})
+        .style("font-size","11px")
+        .style("padding-top","5px")
         .text("EFFECTIVE RATE");
 
     var y_label = viz.selection()
@@ -130,8 +131,8 @@ const initialize = () => {
         .attr("x", (viz.height()/1.4)*-1)
         .attr("dy", "1em")
         .style("fill", "#FFF")
+        .style("font-size","11px")
         .style("font-weight",200)
-        .style({"font-size":"15px"})
         .text("NUMBER OF COMPANIES");
 
     var svg = d3.select("svg");
@@ -272,7 +273,7 @@ const setDataTip = (name, datum, index, x, y) => {
             return parseFloat(viz.data()[0][getSeriesIndex(datum)].effective_rate.toString())+"%";
         });
 
-    
+
     //We add a little logic to position the datatip at the right end of the bar element.
     x = x - tip[0][0].getBoundingClientRect().width / 2;
     y = y - tip[0][0].getBoundingClientRect().height;

@@ -14,14 +14,19 @@
     <link rel="stylesheet" href="Library/styles/cssmenu.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 
 
-    <div class="container" style="width:100%">
+    <div style="width:100%">
         <div id="viz_container" class="theme_default z-depth-3"></div>
     </div>
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -65,6 +70,8 @@
             viz_container = d3.selectAll("#viz_container")
                     .style("width", screenWidth + "px")
                     .style("height", screenHeight + "px");
+
+            // d3.select(".below").style("position","relative").style("top",(screenHeight+30)+"px");
 
             loadData();
         });
