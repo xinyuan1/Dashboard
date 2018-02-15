@@ -58,10 +58,10 @@
             rect =  parent.document.body.getBoundingClientRect();
         }
 
-        console.log($(window).width());
+        console.log(screen.width);
         //Set display size based on window size.
-        if($(window).width() < 650){
-            screenWidth = $(window).width()*.97;
+        if(screen.width < 650){
+            screenWidth = $(window).width();
             console.log("yes");
         }
         else {
