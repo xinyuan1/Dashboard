@@ -32,6 +32,7 @@
 
     <script src="lib/vizuly_core.min.js"></script>
 	<script src="lib/vizuly_bar.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="bar_test.js"></script>
 
@@ -58,16 +59,10 @@
             rect =  parent.document.body.getBoundingClientRect();
         }
 
-        console.log(screen.width);
         //Set display size based on window size.
-        if(screen.width < 650){
-            screenWidth = $(window).width();
-            console.log("yes");
-        }
-        else {
-            screenWidth = $(window).width()*0.80;
-        }
-        screenHeight = $(window).height()*0.95+2;
+        screenWidth = (rect.width < 960) ? Math.round(rect.width*.90) : Math.round((rect.width - 210) *.70);
+        screenHeight = screen.height;
+        screenHeight = (screen.width < 550) ? screen.height*0.75 : screen.height*0.25;
 
         d3.select("#currentDisplay")
                 .attr("item_value", (String(screenWidth) + "," + String(screenHeight)))

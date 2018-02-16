@@ -60,18 +60,21 @@ function initialize() {
     //
     //Both the <code>x</code> and <code>y</code> properties are used to map the data values
     //to the corresponding x and y axis within the chart.
+
+    var screenHeight = (screen.width < 550) ? screen.height*0.75 : screen.height*0.60;
+
     viz.data(data)
-        .width(screenWidth).height($(window).height()*.95+2)     //initial component display size
+        .width(screenWidth).height(screenHeight)     //initial component display size
         .x(function (d, i)
-            { return d.count; })    //property for x axis plot
+        { return d.count; })    //property for x axis plot
         .y(function (d, i)
-            { return d.effective_rate.toString()+"%"; })          //property for y axis plot
+        { return d.effective_rate.toString()+"%"; })          //property for y axis plot
         .padding(0.2)                       //spacing between bars
         .on("update",onUpdate)              //fires every time viz is updated
         .on("zoom",zoom)                    //handles zoom event
         .on("mouseover",onMouseOver)        //handles mouse over event
         .on("mouseout",onMouseOut)          //handles mouse out event
-        .on("measure", onMeasure);          //handles measure event
+        .on("measure", onMeasure);           //handles measure event
 
     //** Themes and skins **  play a big role in vizuly, and are designed to make it easy to make subtle or drastic changes
     //to the look and feel of any component.   Here we choose a theme and skin to use for our bar chart.
@@ -195,7 +198,7 @@ function initialize() {
 function onMouseOver(bar, d, i) {
 
     var rect = bar.getBoundingClientRect();
-    var x = rect.left + rect.width;
+    var x = rect.left + rect.width/2 ;
     var y = rect.top;
 
     setDataTip("myDataTip", d, i, x, y);
